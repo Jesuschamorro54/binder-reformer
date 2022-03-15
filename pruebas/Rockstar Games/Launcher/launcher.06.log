@@ -1,0 +1,64 @@
+[2022-02-17 20:22:54.879] [DISPLAY] [Main ] [main] Command line: "C:\Program Files\Rockstar Games\Launcher\Launcher.exe" -skipPatcherCheck -epicAppId=gta5  -AUTH_LOGIN=unused -AUTH_PASSWORD=e52005b2104d432980c379f5e57d8e4f -AUTH_TYPE=exchangecode -epicapp=9d2d0eb64d5c44529cece33fe2a46482 -epicenv=Prod -EpicPortal  -epicusername="LILLME" -epicuserid=8ccecc5538a34094b12c6332eb7a1049 -epiclocale=es -epicsandboxid=0584d2013f0149a791e7b9bad0eec102 @args.txt
+[2022-02-17 20:22:54.879] [DISPLAY] [Main ] [main] Working directory: C:\Program Files\Rockstar Games\Launcher
+[2022-02-17 20:22:54.879] [DISPLAY] [Main ] [main] Build type: FMB
+[2022-02-17 20:22:54.880] [DISPLAY] [Main ] [main] Version: 1.0.53.576
+[2022-02-17 20:22:54.880] [DISPLAY] [Main ] [main] Parameters:
+[2022-02-17 20:22:54.880] [DISPLAY] [Main ] [main]     C:\Program Files\Rockstar Games\Launcher\Launcher.exe
+[2022-02-17 20:22:54.880] [DISPLAY] [Main ] [main]     -skipPatcherCheck
+[2022-02-17 20:22:54.880] [DISPLAY] [Main ] [main]     -epicAppId=gta5
+[2022-02-17 20:22:54.880] [DISPLAY] [Main ] [main]     -AUTH_LOGIN=unused
+[2022-02-17 20:22:54.880] [DISPLAY] [Main ] [main]     -AUTH_PASSWORD=e52005b2104d432980c379f5e57d8e4f
+[2022-02-17 20:22:54.880] [DISPLAY] [Main ] [main]     -AUTH_TYPE=exchangecode
+[2022-02-17 20:22:54.880] [DISPLAY] [Main ] [main]     -epicapp=9d2d0eb64d5c44529cece33fe2a46482
+[2022-02-17 20:22:54.880] [DISPLAY] [Main ] [main]     -epicenv=Prod
+[2022-02-17 20:22:54.880] [DISPLAY] [Main ] [main]     -EpicPortal
+[2022-02-17 20:22:54.880] [DISPLAY] [Main ] [main]     -epicusername=LILLME
+[2022-02-17 20:22:54.880] [DISPLAY] [Main ] [main]     -epicuserid=8ccecc5538a34094b12c6332eb7a1049
+[2022-02-17 20:22:54.881] [DISPLAY] [Main ] [main]     -epiclocale=es
+[2022-02-17 20:22:54.881] [DISPLAY] [Main ] [main]     -epicsandboxid=0584d2013f0149a791e7b9bad0eec102
+[2022-02-17 20:22:54.881] [DISPLAY] [Main ] [main]     @args.txt
+[2022-02-17 20:22:54.894] [DISPLAY] [Main ] [minmode] Running in Epic mode.
+[2022-02-17 20:22:54.894] [DISPLAY] [Main ] [minmode] Title Id: gta5
+[2022-02-17 20:22:54.894] [DISPLAY] [Main ] [minmode] Location: D:\Epic\GTAV
+[2022-02-17 20:22:54.896] [DISPLAY] [Main ] [launcher] Opening log file.
+[2022-02-17 20:22:54.923] [DISPLAY] [Main ] [titlemanager] Could not get title list cache from disk; no titles known to be installed.
+[2022-02-17 20:22:54.923] [WARNING] [Main ] [titlemanager] MTL install location not set, using exe location: C:\Program Files\Rockstar Games\Launcher
+[2022-02-17 20:22:54.924] [DISPLAY] [Main ] [preqmanager] Could not get preq list from disk; no preqs known to be installed.
+[2022-02-17 20:22:55.193] [WARNING] [Main ] [settingsmanager] Couldn't read settings file C:\Users\motoj\AppData\Local\Rockstar Games\Launcher\settings_user.dat; using defaults.
+[2022-02-17 20:22:55.193] [WARNING] [Main ] [settingsmanager] Couldn't read settings file C:\ProgramData\Rockstar Games\Launcher\settings_machine.dat; using defaults.
+[2022-02-17 20:22:55.193] [DISPLAY] [Main ] [settingsmanager] No user language setting, defaulting to 'es-MX'
+[2022-02-17 20:22:55.193] [DISPLAY] [Main ] [svc] Service version: 1.0.53.576 (1.0.53.576)
+[2022-02-17 20:22:55.491] [DISPLAY] [Main ] [fileutils] Version: 2.0.9.3 | 1.0.53.576 | FFP
+[2022-02-17 20:22:56.044] [DISPLAY] [ 9980] [svc] Received response from service.
+[2022-02-17 20:22:57.475] [DISPLAY] [Main ] [systemtray] System tray: enabled
+[2022-02-17 20:22:57.485] [DISPLAY] [Workr] [idownloader] Starting download of 'https://gamedownloads-rockstargames-com.akamaized.net/public/launcher_online_config.xml'
+[2022-02-17 20:22:57.703] [DISPLAY] [Workr] [idownloader] Completed download of 'https://gamedownloads-rockstargames-com.akamaized.net/public/launcher_online_config.xml' (status: 0/200)
+[2022-02-17 20:22:57.703] [DISPLAY] [Workr] [titlemanager] Downloading title list...
+[2022-02-17 20:22:57.707] [DISPLAY] [Workr] [idownloader] Starting download of 'https://gamedownloads-rockstargames-com.akamaized.net/public/title_metadata.json'
+[2022-02-17 20:22:57.826] [DISPLAY] [Workr] [idownloader] Completed download of 'https://gamedownloads-rockstargames-com.akamaized.net/public/title_metadata.json' (status: 0/200)
+[2022-02-17 20:22:57.895] [DISPLAY] [Workr] [titlemanager] Downloading default title list (SCS)...
+[2022-02-17 20:22:57.895] [DISPLAY] [Workr] [idownloader] Starting download of 'https://rgl-prod.ros.rockstargames.com/launcher/11/LauncherServices/App.asmx/GetDefaultApps?accessToken='
+[2022-02-17 20:22:58.370] [DISPLAY] [Workr] [idownloader] Completed download of 'https://rgl-prod.ros.rockstargames.com/launcher/11/LauncherServices/App.asmx/GetDefaultApps?accessToken=' (status: 0/200)
+[2022-02-17 20:22:58.370] [DISPLAY] [Workr] [titlemanager] Retrieved default title: launcher
+[2022-02-17 20:22:58.370] [DISPLAY] [Workr] [titlemanager] Title list updated.
+[2022-02-17 20:22:58.370] [DISPLAY] [Workr] [titlemanager] Title launcher  : on branch "default"
+[2022-02-17 20:22:58.370] [DISPLAY] [Workr] [launcher] Checking for self-update...
+[2022-02-17 20:22:58.374] [DISPLAY] [Workr] [idownloader] Starting download of 'https://rgl-prod.ros.rockstargames.com/launcher/11/LauncherServices/App.asmx/GetBuildManifestFullNoAuth?branchAccessToken=BRANCHACCESS token="7r+vJ9gWXt5ffp1gPaNx7MeWPsZi/Y1O/mbNuGgbeXgWkGyLryzOG2MD/OowJVQYD+U26CgFLc5mnzbEFTeKH2rGEjSKKiB97z27sgmNY9Q=",signature="goOODzK2Vjkq2MT2epSYtRNYpRGelgR/uTgab9LJLGE="'
+[2022-02-17 20:22:58.851] [DISPLAY] [Workr] [idownloader] Completed download of 'https://rgl-prod.ros.rockstargames.com/launcher/11/LauncherServices/App.asmx/GetBuildManifestFullNoAuth?branchAccessToken=BRANCHACCESS token="7r+vJ9gWXt5ffp1gPaNx7MeWPsZi/Y1O/mbNuGgbeXgWkGyLryzOG2MD/OowJVQYD+U26CgFLc5mnzbEFTeKH2rGEjSKKiB97z27sgmNY9Q=",signature="goOODzK2Vjkq2MT2epSYtRNYpRGelgR/uTgab9LJLGE="' (status: 0/200)
+[2022-02-17 20:22:58.854] [DISPLAY] [Workr] [statuschecker] Title Rockstar Games Launcher: 0.0 KB / 232.91 MB
+[2022-02-17 20:22:58.854] [DISPLAY] [Workr] [selfupdate] Updating launcher...
+[2022-02-17 20:23:01.032] [DISPLAY] [Admin] [idownloader] Starting download of 'https://rgl-prod.ros.rockstargames.com/launcher/11/LauncherServices/App.asmx/RetrieveFileChunkNoAuthMulti'
+[2022-02-17 20:23:01.452] [DISPLAY] [Admin] [idownloader] Completed download of 'https://rgl-prod.ros.rockstargames.com/launcher/11/LauncherServices/App.asmx/RetrieveFileChunkNoAuthMulti' (status: 0/200)
+[2022-02-17 20:23:11.946] [DISPLAY] [Workr] [downloadprogress] Dl: D|210988824|10|10|0|0
+[2022-02-17 20:23:12.469] [DISPLAY] [Workr] [titleupdater] Launcher needs to restart to be made up-to-date.
+[2022-02-17 20:23:12.469] [DISPLAY] [Workr] [titleupdater] Installing prerequisites for title launcher
+[2022-02-17 20:23:12.470] [WARNING] [Workr] [preqmanager] Prerequisite not found: C:\Program Files\Rockstar Games\Launcher\Redistributables\SocialClub\Social-Club-Setup.exe
+[2022-02-17 20:23:12.470] [DISPLAY] [Workr] [titleupdater] Update of Rockstar Games Launcher succeeded; needs restart to complete.
+[2022-02-17 20:23:12.597] [DISPLAY] [Workr] [selfupdate] Applying downloaded self-update...
+[2022-02-17 20:23:12.806] [DISPLAY] [Workr] [selfupdate] Self-update applied, need to restart.
+[2022-02-17 20:23:12.810] [DISPLAY] [Workr] [launcher] Restarting to apply self-update...
+[2022-02-17 20:23:12.810] [DISPLAY] [Workr] [lifecycle] Setting to restart after exit.
+[2022-02-17 20:23:12.810] [DISPLAY] [Workr] [external] Requesting Epic re-launch of title '9d2d0eb64d5c44529cece33fe2a46482'
+[2022-02-17 20:23:12.822] [DISPLAY] [Main ] [launcher] StartShutdown - Now in progress
+[2022-02-17 20:23:12.941] [DISPLAY] [Main ] [app] Application quit requested (exit code: 0)
+[2022-02-17 20:23:13.406] [DISPLAY] [Main ] [launcher] Closing log file.

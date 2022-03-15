@@ -1,0 +1,24 @@
+[2022-02-17 20:23:16.405] [DISPLAY] [Main ] [main] Command line: "C:\Program Files\Rockstar Games\Launcher\Launcher.exe" -skipPatcherCheck -EpicPortal -epiclocale=es -epicsandboxid=0584d2013f0149a791e7b9bad0eec102 @args.txt -upgrade -relaunchFromEpic=9d2d0eb64d5c44529cece33fe2a46482
+[2022-02-17 20:23:16.405] [DISPLAY] [Main ] [main] Working directory: C:\Program Files\Rockstar Games\Launcher
+[2022-02-17 20:23:16.405] [DISPLAY] [Main ] [main] Build type: FMB
+[2022-02-17 20:23:16.405] [DISPLAY] [Main ] [main] Version: 1.0.54.601
+[2022-02-17 20:23:16.405] [DISPLAY] [Main ] [main] Parameters:
+[2022-02-17 20:23:16.406] [DISPLAY] [Main ] [main]     C:\Program Files\Rockstar Games\Launcher\Launcher.exe
+[2022-02-17 20:23:16.406] [DISPLAY] [Main ] [main]     -skipPatcherCheck
+[2022-02-17 20:23:16.406] [DISPLAY] [Main ] [main]     -EpicPortal
+[2022-02-17 20:23:16.406] [DISPLAY] [Main ] [main]     -epiclocale=es
+[2022-02-17 20:23:16.406] [DISPLAY] [Main ] [main]     -epicsandboxid=0584d2013f0149a791e7b9bad0eec102
+[2022-02-17 20:23:16.406] [DISPLAY] [Main ] [main]     @args.txt
+[2022-02-17 20:23:16.406] [DISPLAY] [Main ] [main]     -upgrade
+[2022-02-17 20:23:16.406] [DISPLAY] [Main ] [main]     -relaunchFromEpic=9d2d0eb64d5c44529cece33fe2a46482
+[2022-02-17 20:23:16.415] [DISPLAY] [Main ] [minmode] Starting up normally.
+[2022-02-17 20:23:16.415] [DISPLAY] [Main ] [launcher] Opening log file.
+[2022-02-17 20:23:16.417] [WARNING] [Main ] [launcher] Unable to move log file, waiting and trying again...
+[2022-02-17 20:23:16.918] [WARNING] [Main ] [launcher] Unable to move log file, waiting and trying again...
+[2022-02-17 20:23:17.440] [DISPLAY] [Main ] [preqmanager] Could not get preq list from disk; no preqs known to be installed.
+[2022-02-17 20:23:17.442] [DISPLAY] [Main ] [svc] Service version: 1.0.54.601 (1.0.54.601)
+[2022-02-17 20:23:17.836] [DISPLAY] [Main ] [fileutils] Version: 2.0.9.3 | 1.0.54.601 | FFP
+[2022-02-17 20:23:17.860] [DISPLAY] [Workr] [selfupdate] Up-to-date.
+[2022-02-17 20:23:18.222] [DISPLAY] [ 6008] [svc] Received response from service.
+[2022-02-17 20:23:18.407] [DISPLAY] [Main ] [main] Shutting down to request Epic min-mode launch
+[2022-02-17 20:23:18.611] [DISPLAY] [Main ] [launcher] Closing log file.
