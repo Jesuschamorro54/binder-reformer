@@ -11,35 +11,44 @@ def verify_folder(folder):
     for file in os.listdir(folder):
         absolute_path = os.path.join(folder, file)
 
-        if os.path.isdir(absolute_path):
-            folder_name = absolute_path.split(f"{separator}")[-1]
-            dirs.append(folder_name)
-    
-    return dirs
+        if not os.path.isdir(absolute_path):
+            # folder_name = absolute_path.split(f"{separator}")[-1]
+            # dirs.append(folder_name)
+            return False
+        else:
+            pass
+            
+    return True
 
 
 def verify_name(param, ext = None):
     
-    long_param =  param.split("-") if not ext else param.split(" ")
-    long_struct = STRUCT_FOLDER.split("-") if not ext else STRUCT_FILE.split(" ")
+    array_param =  param.split("-") if not ext else get_array_name(param)
+    array_struct = STRUCT_FOLDER.split("-") if not ext else get_array_name(STRUCT_FILE)
 
     try: 
-
-        if len(long_param) == len(long_struct):
-            print(f"{long_param} --- {long_struct}")
-            print(f"{len(long_param)} --- {len(long_struct)}")
-            
+        if len(array_param) == len(array_struct):
             if not ext: 
+                cod = array_param[0]
                 int(cod)
-                cod = long_param[0]
-                ready = True if long_param[2].lower() == 'Listo'.lower() else False
-                if len(cod) == len(long_struct[0]) and ready:
+                ready = True if array_param[2].lower() == 'Listo'.lower() else False
+                if len(cod) == len(array_struct[0]) and ready:
                     return True
             else:
-                return True
+                if len(array_param) == len(array_struct):
+                    return True
         return False
 
     except ValueError as e:
-        print("You have a error in the name structure of your folder ", e)
+        print("You have a error in the name structure of your folder or file", e)
         return False
-    
+
+def get_array_name(param):
+    name = [] 
+    array = param.split(" ")
+    arrcl = array[2:]
+       
+    if '(' in arrcl[0] and ')' in arrcl[-1]:
+        name = [array[0], array[1], ' '.join(arrcl)]
+        return name
+    return None
